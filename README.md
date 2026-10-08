@@ -8,7 +8,7 @@ Formulários de briefing da **Priscila Cunha · Arquitetura**, publicados no Git
 
 ## Como as respostas chegam
 
-O cliente preenche e clica em **Enviar respostas**. O formulário manda tudo para um Google Apps
+O cliente preenche e clica em **Enviar**. O formulário manda tudo para um Google Apps
 Script ligado a uma planilha do Google:
 
 - cada briefing vira uma **aba**, cada cliente uma **linha**, cada pergunta uma **coluna**;
