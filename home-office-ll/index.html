@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light" style="color-scheme: light;"><head><!-- frame-runtime --><!-- /frame-runtime -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BriefArq · Priscila Cunha Arq</title>
+<style>
+:root{--bg:#f5f1ea;--card:#fffdfa;--ink:#2a2521;--mut:#7b7067;--line:#e1d8cc;--ac:#a2512f;--acf:#fff;--soft:#efe7db;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1916;--card:#26221e;--ink:#efe8df;--mut:#a59a8c;--line:#3b352e;--ac:#dc8a68;--acf:#1c1916;--soft:#302a24}}
+:root[data-theme="dark"]{--bg:#1c1916;--card:#26221e;--ink:#efe8df;--mut:#a59a8c;--line:#3b352e;--ac:#dc8a68;--acf:#1c1916;--soft:#302a24}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 80px}
+h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;margin:0}
+.top{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+.brand{font-family:Georgia,serif;font-size:20px;letter-spacing:.5px}
+.brand small{display:block;font:12px/1.2 system-ui,sans-serif;color:var(--mut);letter-spacing:1.5px;text-transform:uppercase}
+.sp{flex:1}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:0 0 16px}
+.num{display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--ac);color:var(--acf);align-items:center;justify-content:center;font-weight:600;flex:none}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+button,.btn{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 12px;border-radius:9px;cursor:pointer}
+button:hover,.btn:hover{border-color:var(--ac)}
+.pri{background:var(--ac);color:var(--acf);border-color:var(--ac)}
+.dg{color:#b3392b}
+input[type=text],textarea{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:10px 12px}
+textarea{resize:vertical;min-height:84px}
+input:focus,textarea:focus{outline:2px solid var(--ac);outline-offset:0}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin:10px 0}
+.seg button{border:0;border-radius:0;background:transparent}
+.seg button.on{background:var(--ac);color:var(--acf)}
+.opt{display:flex;gap:8px;margin:6px 0;align-items:center}
+.opt .m{width:16px;height:16px;border:2px solid var(--mut);border-radius:50%;flex:none}
+.opt .m.sq{border-radius:4px}
+.chk{display:flex;gap:8px;align-items:center;font-size:14px;color:var(--mut);margin-top:8px;cursor:pointer}
+.imgs{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.th{position:relative}
+.th img{display:block;max-width:100%;max-height:260px;border-radius:9px;border:1px solid var(--line)}
+.imgs .th img{max-height:120px}
+.th b{position:absolute;top:4px;right:4px;background:rgba(0,0,0,.65);color:#fff;border-radius:50%;width:24px;height:24px;text-align:center;line-height:24px;cursor:pointer;font-weight:400}
+.lbl{font-size:13px;color:var(--mut);margin:12px 0 4px;display:block}
+.q{font-size:17px;white-space:pre-wrap;margin:8px 0 12px}
+.ch{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:9px;margin:6px 0;cursor:pointer}
+.ch:has(input:checked){border-color:var(--ac);background:var(--soft)}
+.ch input{margin-top:4px;accent-color:var(--ac)}
+.hero{padding:6px 0 22px}
+.hero h1{font-size:30px;line-height:1.2}
+.hero p{color:var(--mut);white-space:pre-wrap}
+.note{font-size:13px;color:var(--mut)}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ban{background:var(--soft);border:1px dashed var(--ac);border-radius:10px;padding:8px 12px;font-size:13px;margin-bottom:16px}
+input[type=file]{display:none}
+</style>
+</head>
+<body>
+<div class="wrap" id="root"></div>
+<script id="seed" type="application/json">{"mode":"client","id":"p2wco6r","data":{"title":"BRIEFING - Ambiente Home Office L|L","intro":"Olá, este questionário vai me ajudar a entender suas necessidades e preferências. Responda com calma e não economize nos detalhes!\n","qs":[{"id":"ysfszc4","text":"Cada um precisa de uma estação de trabalho individual ou preferem uma bancada compartilhada?","type":"choice","opts":["Individual ","Bancada compartilhada ","Não temos preferência "],"multi":false,"imgs":[],"allowImg":true},{"id":"4z3ekzk","text":"Ambos usam computador de mesa (gabinete + monitor)?","type":"choice","opts":["Sim","Não "],"multi":true,"imgs":[],"allowImg":true},{"id":"c7584w1","text":"Além dos monitores, algum outro aparelho precisa estar em cima da bancada?","type":"choice","opts":["Sim","Não "],"multi":false,"imgs":[],"allowImg":true},{"id":"l8kumvc","text":"Precisam de espaço específico para impressora, notebook auxiliar ou outro equipamento?","type":"choice","opts":["Sim","Não "],"multi":false,"imgs":[],"allowImg":true},{"id":"ets0q7p","text":"Existe preferência em trabalhar lado a lado, de frente ou costas um para outro? ","type":"choice","opts":["Lado a lado","De costas um para o outro","De frente um para o outro","Não temos preferência "],"multi":false,"imgs":[],"allowImg":true},{"id":"92472hi","text":"Fazem reuniões com frequência? Precisam de um fundo específico para as chamadas? ","type":"choice","opts":["Sim, os dois","Não, nenhum","Apenas um"],"multi":false,"imgs":[],"allowImg":true},{"id":"ewcshbn","text":"Há alguma necessidade especial em relação ao conforto e ergonomia? ","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"a45wq63","text":"Qual a altura de cada um?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"8kprwre","text":"O que precisam armazenar no ambiente?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"vjluxps","text":"Preferem armários fechados, prateleiras abertas ou uma combinação dos dois?","type":"choice","opts":["Armários fechados","Prateleiras","Ambos combinados"],"multi":false,"imgs":[],"allowImg":true},{"id":"dwbxozn","text":"Precisam de gavetas?","type":"choice","opts":["Sim","Não"],"multi":false,"imgs":[],"allowImg":true},{"id":"k86robz","text":"Gostariam de espaço para expor algum objeto decorativo específico?","type":"choice","opts":["Sim","Não "],"multi":false,"imgs":[],"allowImg":true},{"id":"fcyq58w","text":"Como imaginam o ambiente ideal?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"6m4z58z","text":"Existe alguma cor, material ou estilo específico que gostam?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"gn6yo43","text":"Existe alguma cor, material ou estilo específico que não gostam?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"0r4lvji","text":"Gostam de ambientes mais claros e neutros ou com cores e personalidade?","type":"choice","opts":["Claros e neutros","Cores e personalidade","Ambos"],"multi":false,"imgs":[],"allowImg":true},{"id":"m1sf78w","text":"Anexe imagens de referências que vocês gostam","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"p7or3yi","text":"Preferem uma iluminação mais aconchegante ou mais clara e funcional?","type":"choice","opts":["Aconchegante ","Clara","Ambas"],"multi":false,"imgs":[],"allowImg":true},{"id":"ku6d87f","text":"Gostariam de alguma iluminação decorativa como fita de led ou luminárias?","type":"choice","opts":["Sim","Não "],"multi":false,"imgs":[],"allowImg":true},{"id":"gujw9d1","text":"O ambiente precisa de algum cuidado especial em relação a ruídos, privacidade ou concentração?","type":"choice","opts":["Sim","Não "],"multi":false,"imgs":[],"allowImg":true},{"id":"8sykjiu","text":"O ambiente será utilizado exclusivamente como home office ou terá outras funções?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"29kdduf","text":"Gostariam de incluir algum elemento especial? Como poltrona, cafeteira, painel decorativo, etc.","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"1s9sths","text":"Já existe algum móvel ou equipamento que desejam manter no ambiente?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"59z7jh1","text":"O que mais incomoda no espaço atualmente, o que precisa melhorar? ","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"huu7riy","text":"Pretendem executar todo o projeto de uma vez ou por etapas?","type":"choice","opts":["Projeto todo","Por etapas"],"multi":false,"imgs":[],"allowImg":true},{"id":"50xdhwq","text":"Possuem algum valor previsto para o investimento? Qual?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"584ht54","text":"Existe algum desejo ou detalhe que não foi mencionado, que gostariam de incluir?","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"q1kj7en","text":"","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true},{"id":"2m47ouv","text":"","type":"text","opts":["",""],"multi":false,"imgs":[],"allowImg":true}]}}</script>
+<script id="app">
+const $r=document.getElementById('root');
+let seed={};try{seed=JSON.parse(document.getElementById('seed').textContent)||{}}catch(e){}
+const CLIENT=seed.mode==='client';
+const KEY=CLIENT?'briefarq_a_'+seed.id:'briefarq_builder';
+const uid=()=>Math.random().toString(36).slice(2,9);
+const lsGet=()=>{try{return JSON.parse(localStorage.getItem(KEY))}catch(e){return null}};
+const lsSet=v=>{try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}};
+let D=seed.data||lsGet()||{title:'Briefing de Projeto',intro:'Olá! Responda com calma. Quanto mais detalhes, melhor o projeto.',qs:[]};
+let A=(CLIENT&&lsGet())||{name:'',ans:{}};
+let preview=false;
+const persist=()=>lsSet(CLIENT?A:D);
+
+function h(t,a,...k){const e=document.createElement(t);for(const n in a||{}){const v=a[n];if(n.startsWith('on'))e[n]=v;else if(n==='class')e.className=v;else if(v!==null&&v!==undefined&&v!==false)e.setAttribute(n,v===true?'':v)}
+ k.flat().forEach(c=>{if(c!==null&&c!==undefined&&c!==false)e.append(c.nodeType?c:document.createTextNode(c))});return e}
+const btn=(t,f,c)=>h('button',{type:'button',class:c||'',onclick:f},t);
+
+function shrink(file){return new Promise(res=>{const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const m=1000,s=Math.min(1,m/Math.max(im.width,im.height));const c=document.createElement('canvas');c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);c.getContext('2d').drawImage(im,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',.78))};im.onerror=()=>res(null);im.src=r.result};r.onerror=()=>res(null);r.readAsDataURL(file)})}
+function adder(list,label,after){const i=h('input',{type:'file',accept:'image/*',multiple:true,onchange:async()=>{for(const f of i.files){const d=await shrink(f);if(d)list.push(d)}persist();after()}});return h('label',{class:'btn'},label,i)}
+function thumbs(list,edit,after){return h('div',{class:'imgs'},list.map((s,n)=>h('div',{class:'th'},h('img',{src:s,alt:''}),edit?h('b',{onclick:()=>{list.splice(n,1);persist();after()}},'×'):null)))}
+
+/* ---------- ARQUITETA ---------- */
+function builder(){
+ $r.innerHTML='';
+ $r.append(h('div',{class:'top'},h('div',{class:'brand'},'BriefArq',h('small',null,'Priscila Cunha · Arquitetura')),h('div',{class:'sp'}),
+  btn('Pré-visualizar',()=>{preview=true;draw()}),btn('Baixar formulário do cliente',exportClient,'pri')));
+ $r.append(h('div',{class:'card'},
+  h('label',{class:'lbl'},'Título do briefing'),h('input',{type:'text',value:D.title,oninput:e=>{D.title=e.target.value;persist()}}),
+  h('label',{class:'lbl'},'Mensagem de abertura'),h('textarea',{oninput:e=>{D.intro=e.target.value;persist()}},D.intro)));
+ D.qs.forEach((q,i)=>$r.append(qCard(q,i)));
+ $r.append(h('div',{class:'bar'},btn('+ Nova pergunta',()=>{D.qs.push({id:uid(),text:'',type:'text',opts:['',''],multi:false,imgs:[],allowImg:true});persist();draw()},'pri'),
+  h('span',{class:'note'},'Enviar ao cliente: baixe o formulário e mande o arquivo (WhatsApp/e-mail). Ele abre em qualquer navegador.')));
+}
+function qCard(q,i){
+ const mv=d=>{const j=i+d;if(j<0||j>=D.qs.length)return;[D.qs[i],D.qs[j]]=[D.qs[j],D.qs[i]];persist();draw()};
+ const seg=(t,v)=>h('button',{type:'button',class:q.type===v?'on':'',onclick:()=>{q.type=v;persist();draw()}},t);
+ return h('section',{class:'card'},
+  h('div',{class:'row'},h('span',{class:'num'},i+1),h('div',{class:'sp'}),btn('↑',()=>mv(-1)),btn('↓',()=>mv(1)),btn('Excluir',()=>{if(confirm('Excluir a pergunta '+(i+1)+'?')){D.qs.splice(i,1);persist();draw()}},'dg')),
+  h('textarea',{placeholder:'Enunciado da pergunta',oninput:e=>{q.text=e.target.value;persist()}},q.text),
+  h('div',null,h('div',{class:'seg'},seg('Resposta escrita','text'),seg('Assinalável','choice'))),
+  q.type==='choice'?h('div',null,
+   q.opts.map((o,n)=>h('div',{class:'opt'},h('span',{class:'m'+(q.multi?' sq':'')}),h('input',{type:'text',value:o,placeholder:'Opção '+(n+1),oninput:e=>{q.opts[n]=e.target.value;persist()}}),btn('×',()=>{q.opts.splice(n,1);persist();draw()},'dg'))),
+   btn('+ Opção',()=>{q.opts.push('');persist();draw()}),
+   h('label',{class:'chk'},h('input',{type:'checkbox',checked:q.multi,onchange:e=>{q.multi=e.target.checked;persist();draw()}}),'Permitir marcar mais de uma opção')):null,
+  h('span',{class:'lbl'},'Imagens do enunciado'),thumbs(q.imgs,true,draw),adder(q.imgs,'+ Adicionar imagem',draw),
+  h('label',{class:'chk'},h('input',{type:'checkbox',checked:q.allowImg,onchange:e=>{q.allowImg=e.target.checked;persist()}}),'Cliente pode anexar imagens na resposta'));
+}
+
+/* ---------- CLIENTE ---------- */
+function form(){
+ $r.innerHTML='';
+ if(!CLIENT)$r.append(h('div',{class:'ban'},'Pré-visualização — assim o cliente verá. ',btn('Voltar à edição',()=>{preview=false;draw()})));
+ $r.append(h('div',{class:'hero'},h('div',{class:'brand'},'BriefArq',h('small',null,'Priscila Cunha · Arquitetura')),h('h1',{style:'margin-top:18px'},D.title),h('p',null,D.intro)));
+ $r.append(h('div',{class:'card'},h('label',{class:'lbl',style:'margin-top:0'},'Seu nome'),h('input',{type:'text',value:A.name,oninput:e=>{A.name=e.target.value;persist()}})));
+ D.qs.forEach((q,i)=>{
+  const a=A.ans[q.id]=A.ans[q.id]||{t:'',sel:[],imgs:[]};
+  $r.append(h('section',{class:'card'},
+   h('div',{class:'row'},h('span',{class:'num'},i+1)),
+   h('div',{class:'q'},q.text),q.imgs.length?thumbs(q.imgs,false):null,
+   q.type==='choice'?q.opts.filter(o=>o.trim()).map(o=>h('label',{class:'ch'},
+     h('input',{type:q.multi?'checkbox':'radio',name:'q'+q.id,checked:a.sel.includes(o),onchange:e=>{if(q.multi){a.sel=e.target.checked?[...a.sel,o]:a.sel.filter(x=>x!==o)}else a.sel=[o];persist()}}),h('span',null,o)))
+    :h('textarea',{placeholder:'Sua resposta',oninput:e=>{a.t=e.target.value;persist()}},a.t),
+   q.allowImg?h('div',null,thumbs(a.imgs,true,draw),adder(a.imgs,'📎 Anexar imagem',draw)):null));
+ });
+ $r.append(h('div',{class:'bar'},btn('Finalizar e baixar respostas',finish,'pri'),h('span',{class:'note'},'Depois, envie o arquivo baixado para a Priscila.')));
+}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function report(){
+ const body=D.qs.map((q,i)=>{const a=A.ans[q.id]||{t:'',sel:[],imgs:[]};
+  const ans=q.type==='choice'?(a.sel.length?a.sel.map(s=>'<li>'+esc(s)+'</li>').join(''):'<li><i>sem resposta</i></li>'):(a.t.trim()?'<p>'+esc(a.t).replace(/\n/g,'<br>')+'</p>':'<p><i>sem resposta</i></p>');
+  return '<section><h3>'+(i+1)+'. '+esc(q.text)+'</h3>'+q.imgs.map(s=>'<img src="'+s+'" class="q">').join('')+(q.type==='choice'?'<ul>'+ans+'</ul>':ans)+a.imgs.map(s=>'<img src="'+s+'">').join('')+'</section>'}).join('');
+ return '<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Respostas — '+esc(A.name)+'</title><style>body{font:16px/1.55 system-ui,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;color:#2a2521}h1{font-family:Georgia,serif;font-weight:500}h3{font-weight:600;margin:0 0 8px}section{border-top:1px solid #ddd;padding:16px 0;break-inside:avoid}img{max-width:100%;max-height:340px;display:block;margin:8px 0;border-radius:8px}img.q{opacity:.85;max-height:160px;display:inline-block;margin-right:6px}ul{padding-left:20px}.m{color:#7b7067}</style><h1>'+esc(D.title)+'</h1><p class="m">Cliente: <b>'+esc(A.name||'—')+'</b> · '+new Date().toLocaleDateString('pt-BR')+' · BriefArq · Priscila Cunha Arq</p>'+body+'</html>';
+}
+const slug=s=>(s||'cliente').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'').toLowerCase()||'cliente';
+async function saveFile(name,data){
+ try{const d=await window.claude.use('downloads');if(d){await d.save({filename:name,data});return}}catch(e){if(e&&e.code==='declined')return}
+ const a=h('a',{href:URL.createObjectURL(new Blob([data],{type:'text/html'})),download:name});document.body.append(a);a.click();a.remove();
+}
+function finish(){
+ if(!A.name.trim()){alert('Por favor, preencha seu nome.');return}
+ if(!CLIENT){alert('Na pré-visualização o arquivo não é gerado.');return}
+ saveFile('respostas-briefing-'+slug(A.name)+'.html',report());
+}
+function exportClient(){
+ if(!D.qs.length){alert('Adicione ao menos uma pergunta.');return}
+ const c=document.documentElement.cloneNode(true);
+ c.querySelectorAll('script').forEach(s=>{if(!s.id)s.remove()});
+ c.querySelector('#seed').textContent=JSON.stringify({mode:'client',id:uid(),data:D}).replace(/</g,'\\u003c');
+ c.querySelector('#root').innerHTML='';
+ saveFile('briefing-'+slug(D.title)+'.html','<!doctype html>\n'+c.outerHTML);
+}
+function draw(){const y=window.scrollY;(CLIENT||preview)?form():builder();window.scrollTo(0,y)}
+draw();
+</script>
+
+
+</body></html>
